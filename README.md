@@ -1,4 +1,4 @@
-# ubah
+# Ubah
 Ubah is a simple translation helper library
 
 ## INSTALLATION
