@@ -22,7 +22,7 @@ then you can use this module like this.
 ```javascript
 // index.js
 const ubah = require('ubah');
-const dictionary = require('./language');
+const dictionary = require('./languageDictionary');
 
 // init ubah with your dictionary
 ubah.init(dictionary);
