@@ -50,7 +50,7 @@ class Ubah {
     } else {
       const reducerName = this.options.customReducerName;
       const fieldName = this.options.customFieldName;
-      currentLanguage = this.store().getState()[reducerName][fieldName];
+      currentLanguage = this.store.getState()[reducerName][fieldName];
     }
     if (this.dictionary === {}) return word;
     if (!this.dictionary[currentLanguage][word]) return word;
